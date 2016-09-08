@@ -2,7 +2,7 @@
 
 
 The premise is the same as the original plugin by Lee Murphy (LeeIzaZombie).
-Moved here to Github and resurrected... like a zombie mod!
+Moved here to Github and resurrected... 
 
 The original project as of this date (9/7/2016) is located here:  https://bitbucket.org/LeeIzaZombie/profile/repositories
 
