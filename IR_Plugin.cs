@@ -19,7 +19,7 @@ namespace ItemRestrictions2
     public class PluginIR : RocketPlugin<IR_Config>
     {
         public static PluginIR Instance;
-        public string Version = "2.0.0.0";
+        public string Version = "2.0.0.1";
 
         private const string PermissionIgnoreRetrictions = "ItemRestriction.IgnoreRestrictions";
 
