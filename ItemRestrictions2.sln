@@ -5,6 +5,22 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemRestrictions2", "ItemRestrictions2.csproj", "{CD2AA1D7-327C-4FBF-A10B-80F786A39DD7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{88522853-E8C2-44C8-BBD0-C0D2D859F77D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RocketDlls", "RocketDlls", "{BDBD54D2-C9EC-4025-9849-7C60C1AE1AAE}"
+	ProjectSection(SolutionItems) = preProject
+		lib\RocketDlls\Assembly-CSharp.dll = lib\RocketDlls\Assembly-CSharp.dll
+		lib\RocketDlls\Rocket.API.dll = lib\RocketDlls\Rocket.API.dll
+		lib\RocketDlls\Rocket.Core.dll = lib\RocketDlls\Rocket.Core.dll
+		lib\RocketDlls\Rocket.Unturned.dll = lib\RocketDlls\Rocket.Unturned.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnturnedDlls", "UnturnedDlls", "{BEA176F1-C4CC-4DA4-8EFF-5AC38FF7354E}"
+	ProjectSection(SolutionItems) = preProject
+		lib\UnturnedDlls\Assembly-CSharp-firstpass.dll = lib\UnturnedDlls\Assembly-CSharp-firstpass.dll
+		lib\UnturnedDlls\UnityEngine.dll = lib\UnturnedDlls\UnityEngine.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +34,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BDBD54D2-C9EC-4025-9849-7C60C1AE1AAE} = {88522853-E8C2-44C8-BBD0-C0D2D859F77D}
+		{BEA176F1-C4CC-4DA4-8EFF-5AC38FF7354E} = {88522853-E8C2-44C8-BBD0-C0D2D859F77D}
 	EndGlobalSection
 EndGlobal
