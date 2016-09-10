@@ -6,7 +6,7 @@ Moved here to Github and resurrected...
 
 The original project as of this date (9/7/2016) is located here:  https://bitbucket.org/LeeIzaZombie/profile/repositories
 
-This release restores the mod to functional with latest version of Rocket Mod v2.4.8.0
+This release restores the mod to functional with latest version of Rocket Mod v4.9.8.0
 and Unturned v3.16.2.1
 
 Use the sample xml configuration file to fill in the items you want to restrict.  The Item Description tag is just there for user readability/maintenance, it is not used in code.
